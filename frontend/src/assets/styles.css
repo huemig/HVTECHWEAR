@@ -1,0 +1,391 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/****************************
+  ********Header
+  **********************************/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  box-shadow: 5px 0px 10px #000;
+}
+
+nav .right-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+nav .right-nav .search {
+  position: relative;
+}
+
+nav .right-nav .search input {
+  padding: 10px 20px;
+  border: 0;
+  background-color: gray;
+  border-radius: 10px;
+  outline: none;
+}
+
+nav .right-nav .search img {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+  width: 25px;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+nav .right-nav a {
+  text-decoration: none;
+  color: #000;
+}
+.banner img {
+  width: 100%;
+}
+.banner {
+  position: relative;
+}
+.banner .bannertxt {
+  position: absolute;
+  left: 7rem;
+  top: 15rem;
+}
+.bannertxt h1 {
+  font-size: 3rem;
+}
+/****************
+  main
+  *****************/
+.discount {
+  background-color: #373836;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+.discount p {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 2rem;
+  font-weight: 300;
+}
+
+.shop {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.shop a {
+  text-decoration: none;
+  color: white;
+}
+.p {
+  width: 65%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  padding: 5rem;
+  font-weight: bold;
+}
+/*****************
+  Categories
+  *****************/
+.hold {
+  width: 65%;
+  margin: 0 auto;
+}
+/* .cat-drop {
+  padding: 0.5rem 0.5rem;
+  background-color: #373836;
+  border-radius: 0.5rem;
+} */
+.cat-drop img {
+  width: 10%;
+  background-color: #373836;
+  border-radius: 1rem;
+}
+.cat {
+  width: 80%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.cat img {
+  width: 100%;
+}
+.category-item {
+  position: relative;
+}
+.category-item .filter {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  z-index: 1;
+}
+.category-item .plus {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+}
+.category-item .name {
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  z-index: 2;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+/******** 
+  offers
+  ******************/
+.offers {
+  width: 65%;
+  margin: 0 auto;
+  font-size: 1.8rem;
+  padding: 5rem;
+}
+.offer-grid {
+  width: 60%;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.offer-grid img {
+  width: 100%;
+}
+.offer-item {
+  position: relative;
+}
+.offer-item .offer-text {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.offer-text {
+  color: white;
+}
+.offer-text p:nth-child(1) {
+  font-size: 2rem;
+}
+.offer-item .btn {
+  position: absolute;
+  bottom: 1rem;
+  right: 10.4rem;
+  box-shadow: 1px 1px 6px #ccc;
+  color: white;
+  background-color: rgba(90, 226, 149, 0.716);
+  border: 0;
+  padding: 0.3rem;
+  border-radius: 0.1rem;
+}
+
+.blackfooter {
+  margin-top: 10rem;
+  background-color: #292828;
+}
+.flexfooter {
+  display: flex;
+  padding: 3rem;
+  list-style-type: none;
+}
+.flexfooter a {
+  text-decoration: none;
+  color: #707070;
+  list-style-type: none;
+}
+.learn {
+  list-style-type: none;
+}
+.learn li {
+  padding: 1rem;
+}
+.support li {
+  padding: 1rem;
+}
+.flexfooter h3 {
+  padding: 1rem;
+  color: white;
+}
+.followus {
+  z-index: 10;
+  text-align: end;
+  margin-right: 2rem;
+}
+.copyright {
+  color: #707070;
+  padding: 1rem;
+  text-align: center;
+}
+
+/********************************
+  *****Tshirt Page
+  *****************************************/
+
+.filter-cat {
+  display: flex;
+  width: 80%;
+  margin: 3rem auto;
+  align-items: center;
+  gap: 4rem;
+}
+
+.bi-section {
+  display: flex;
+  gap: 1rem;
+  width: 90%;
+  margin: 2rem auto;
+}
+#cat {
+  padding: 1rem 2rem;
+  background-color: #000;
+  color: white;
+  font-weight: bold;
+}
+
+.bi-section .cat-list {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 21%;
+  padding: 0.5rem;
+}
+
+.cat-list .heading {
+  margin-bottom: 2rem;
+}
+
+.cat-list .cat-drop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  margin-bottom: 1rem;
+}
+.bi-section .tshirt-grid-cont {
+  flex-basis: 79%;
+  border-left: 1px solid #000;
+  padding: 0rem 1rem;
+}
+
+.tshirt-grid-cont .heading {
+  margin-bottom: 1rem;
+}
+.tshirt-grid-cont .wheading {
+  margin: 2rem;
+}
+
+.tshirt-grid-cont .tshirt-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.tshirt-grid .grid-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.grid-item .image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-item .info p.name {
+  font-weight: bolder;
+}
+.grid-item .price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.grid-item .price button {
+  background-color: #373836;
+  padding: 0.4rem 0.6rem;
+  color: #fff;
+  border: 0;
+}
+.pages {
+  text-align: center;
+  text-decoration: none;
+}
+.pages a {
+  text-decoration: none;
+  padding: 0.3rem;
+  color: #000;
+}
+.pages button {
+  margin: 0.3rem;
+}
+/*********************
+  CART    PAGE
+  ************************/
+
+.mycart {
+  width: 80%;
+  margin: 2rem auto;
+  font-size: 4rem;
+}
+
+.cart-items {
+  width: 90%;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  border-bottom: 2px solid #000;
+  padding-bottom: 1rem;
+}
+.cart-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.cart-item img {
+  width: 100%;
+}
+.cart-item .price {
+  display: flex;
+  justify-content: space-between;
+}
+.carthr {
+  font-size: 3rem;
+}
+.total {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  width: 70%;
+  margin: 0 auto;
+
+  padding: 1rem 0rem;
+}
+.subtotal {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+#align-left {
+  align-items: start;
+}
+
+.total button {
+  margin-top: 1rem;
+  background-color: #3c3e3c;
+  padding: 1rem 2rem;
+  border-radius: 0.2rem;
+}
+.total button a {
+  text-decoration: none;
+  color: #fff;
+}
